@@ -1,0 +1,169 @@
+.news-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .news-wrapper .wrapper1 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    width: 100%;
+    height: 672px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#7a217f), to(rgba(0, 52, 90, 0)));
+    background-image: linear-gradient(to right, #7a217f, rgba(0, 52, 90, 0)); }
+    .news-wrapper .wrapper1 .nav .nav1 {
+      width: 100%;
+      position: relative;
+      z-index: -100;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      top: 67px; }
+      .news-wrapper .wrapper1 .nav .nav1 .logo {
+        background-image: url("http://via.placeholder.com/200x100");
+        width: 187px;
+        height: 67px;
+        margin-left: 128px; }
+      .news-wrapper .wrapper1 .nav .nav1 .w-1 {
+        position: relative;
+        z-index: -99; }
+        .news-wrapper .wrapper1 .nav .nav1 .w-1 p, .news-wrapper .wrapper1 .nav .nav1 .w-1 .l {
+          margin: 10px 0 0 50px;
+          display: inline-block;
+          color: #FFFFFF; }
+      .news-wrapper .wrapper1 .nav .nav1 .link-contact {
+        position: relative;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px  4px  4px  4px;
+        height: 50px;
+        width: 160px;
+        margin: 5px 0 0 150px;
+        text-align: center;
+        text-decoration: none; }
+        .news-wrapper .wrapper1 .nav .nav1 .link-contact .cu {
+          position: relative;
+          color: #FFFFFF;
+          text-decoration: none; }
+    .news-wrapper .wrapper1 .lorem {
+      position: absolute;
+      top: 359px;
+      width: 100%;
+      height: 124px;
+      text-align: center; }
+      .news-wrapper .wrapper1 .lorem .lorem-text {
+        color: white;
+        font-size: 42px; }
+    .news-wrapper .wrapper1 .descr {
+      position: absolute;
+      top: 488px;
+      left: 480px;
+      height: 48px;
+      width: 416px;
+      border: 1px solid white;
+      border-radius: 4px 4px 4px 4px; }
+  .news-wrapper .nw {
+    position: relative;
+    top: 672px; }
+
+.nlink {
+  position: relative; }
+
+.nlink1 {
+  text-decoration: none;
+  font-size: 16px; }
+
+.news1 {
+  margin: 0 100px; }
+
+.title-news {
+  text-align: center;
+  font-size: 50px;
+  margin: 200px; }
+
+.title-n1 {
+  margin: 170px 10px 50px 10px;
+  color: #B7B7B7;
+  font-size: 32px; }
+
+.desc {
+  width: 100%;
+  margin: 50px 0 50px 200px; }
+  .desc .description {
+    width: 600px;
+    color: #B7B7B7;
+    font-size: 20px; }
+
+.autor, .czas {
+  margin-left: 800px;
+  font-size: 18px; }
+
+.autor {
+  color: #0D70B7;
+  font-weight: bold; }
+
+.wrapper-lip {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 127px;
+  margin-right: 128px;
+  margin-bottom: 300px;
+  top: 3600px; }
+  .wrapper-lip .line3 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #b7b7b7;
+    opacity: .5; }
+  .wrapper-lip .fo {
+    position: relative;
+    margin-top: 36px; }
+    .wrapper-lip .fo .fo1 {
+      display: inline-block;
+      position: relative;
+      text-align: left;
+      width: 50%; }
+      .wrapper-lip .fo .fo1 .cop {
+        display: inline-block;
+        color: #B7B7B7;
+        padding-left: 5px;
+        margin-bottom: 200px; }
+    .wrapper-lip .fo .fo2 {
+      display: inline-block;
+      position: relative;
+      text-align: right;
+      width: 49%;
+      height: 100%; }
+      .wrapper-lip .fo .fo2 .cop2 {
+        display: inline-block;
+        color: #B7B7B7;
+        padding-left: 5px; }
+  .wrapper-lip .wrapper-lip1 {
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    grid-column-gap: 128.15px; }
+    .wrapper-lip .wrapper-lip1 .wl .wl-title {
+      color: #767676; }
+    .wrapper-lip .wrapper-lip1 .wl .lo-el {
+      color: #B7B7B7; }
+
+.line2 {
+  position: relative;
+  top: 700px;
+  width: 100%;
+  border: 1px solid #b7b7b7;
+  opacity: .5;
+  margin: 150px 0 150px 0; }

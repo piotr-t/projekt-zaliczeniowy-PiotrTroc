@@ -1,0 +1,2 @@
+projekt zaliczeniowy-PiotrTroc
+-poprawiony

@@ -1,0 +1,205 @@
+.news-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+display: flex;
+flex-direction: column;
+.wrapper1{
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    width: 100%;
+    height: 672px;
+    background-image: linear-gradient(to right,rgba(122, 33, 127, 1), rgba(0, 52, 90, 0)); ;
+    .nav{
+        .nav1{
+            width: 100%;
+            position: relative;
+            z-index: -100;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            top: 67px;
+            .logo{
+                background-image: url('http://via.placeholder.com/200x100');
+                width: 187px;
+                height: 67px;
+            margin-left: 128px; }
+            .w-1{
+                position: relative;
+                z-index: -99;
+                p, .l{
+                    margin: 10px 0 0 50px;
+                    display: inline-block;
+                   color: #FFFFFF;
+                }}
+            
+                 .link-contact{
+                    position: relative;
+                   border: 1px solid #FFFFFF;
+                   border-radius: 4px  4px  4px  4px;
+                   height: 50px;
+                   width: 160px;
+                   margin: 5px 0 0 150px;
+                   text-align: center; 
+                   text-decoration: none;
+                   
+                   .cu{
+                       position: relative;
+                       color: #FFFFFF; 
+                       text-decoration: none;
+                   }
+               }
+
+           
+            
+
+
+
+            
+        }
+    }
+    .lorem{
+        position: absolute;
+        top: 359px; 
+        width: 100%;
+        height: 124px;
+        text-align: center;
+        .lorem-text{
+            color:rgba(255, 255, 255, 1);
+            font-size: 42px;
+            //line-height: 54;
+        }   
+    }
+    .descr{
+        position: absolute;
+        top: 488px;
+        left: 480px;
+        height: 48px;
+        width: 416px;
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 4px 4px 4px 4px;
+    }
+}
+
+
+.nw{
+    position: relative;
+    top: 672px;
+}
+
+}
+
+.nlink{
+    position: relative;
+}
+
+.nlink1{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.news1{
+    margin: 0 100px;
+}
+.title-news{
+    text-align: center;
+    font-size: 50px;
+    margin: 200px;
+}
+.title-n1{
+    margin: 170px 10px 50px 10px;
+    color:#B7B7B7;
+      font-size: 32px;
+  }
+
+  .desc{
+    width: 100%;
+    margin: 50px 0 50px 200px;
+      .description{
+        width: 600px;
+        color: #B7B7B7; 
+        font-size: 20px;
+      }
+  }
+  .autor, .czas{
+      margin-left: 800px;
+      font-size: 18px;
+  }
+  .autor{
+      color: #0D70B7;
+      font-weight: bold;
+  }
+
+  //   footer
+
+
+  .wrapper-lip{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 127px;
+    margin-right: 128px;
+    margin-bottom: 300px;
+    top:3600px;
+    
+    .line3{
+        position: relative;
+        width: 100%;
+        border: 1px solid rgba(183, 183, 183, 1);
+        opacity: .5;}
+    .fo{
+        position: relative;
+        margin-top: 36px;
+        .fo1{        
+            display: inline-block;
+            position: relative;
+            text-align: left;
+            width: 50%;
+            .cop{
+                display: inline-block;
+                color: #B7B7B7;
+                padding-left: 5px;
+                margin-bottom: 200px;
+            }
+        }
+        .fo2{        
+            display: inline-block;
+            position: relative;
+            text-align: right;
+            width: 49%; 
+            height: 100%;
+            .cop2{        
+                display: inline-block;
+                color: #B7B7B7; 
+                padding-left: 5px;
+               }
+        }
+     
+    }
+    .wrapper-lip1{
+    display: grid;
+    grid-template-columns:160px 160px 160px 160px ;
+    grid-column-gap: 128.15px;
+    .wl{
+        .wl-title{color: #767676;}
+        .lo-el{
+            color: #B7B7B7;
+            
+        }
+        
+    }
+    
+}
+
+}
+.line2{
+    position: relative; 
+    top: 700px;
+    width: 100%;
+    border: 1px solid rgba(183, 183, 183, 1);
+    opacity: .5;
+    margin: 150px 0 150px 0;
+}
+
+
