@@ -1,2 +1,5 @@
 projekt zaliczeniowy-PiotrTroc
--poprawiony
+
+
+
+npm i --global gulp-cli

@@ -1,13 +1,20 @@
-@import 'header';
-@import 'content';
-@import 'footer';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&subset=latin-ext');
+@font-face {font-family:Mont;src: url(fonts/Mont-HeavyDEMO.otf;)}
 
-.wr{
-    position: absolute;
-    top:0;
-    left: 0;
+
+
+
+body{
     width: 100vw;
-    height: 100%;
-    background-color:rgba(255, 255, 255, 1);
-    
+    margin:0px;
+    padding:0px;
+    background-color:rgba(255, 255, 255, 1); 
+    .conrainer_page{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        @import 'header';
+        @import 'content';
+        @import 'footer';
+    } 
 }

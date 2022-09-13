@@ -1,0 +1,104 @@
+.nav1a{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        p{
+            font-size: 10px;
+            color: rgba(255, 255, 255, .4);
+            display: inline-block;
+            font-family: "Mont";
+            margin-left: 40px;
+        }
+
+    }
+.line2{
+        left: 0;
+        width: 100vw;
+        border: 1px solid rgba(255, 255, 255, 1);
+        opacity: .3;
+    }
+.nav2{
+    margin-bottom: 10%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        p, .l{
+            margin: 10px 0 0 50px;
+            display: inline-block;
+           color: #FFFFFF;
+           font-family: 'Poppins';
+           a{
+            text-decoration: none;
+            color: #FFFFFF;
+           }
+        }
+        .link-contact{
+            justify-self: end;
+            position: relative;
+           
+           
+           margin: 5px 10%;
+           
+           text-decoration: none;
+           .contact-us{
+            justify-self: end;
+            border: 1px solid #FFFFFF;
+            border-radius: 4px  4px  4px  4px;
+           }
+           
+           .cu{
+               position: relative;
+               color: #FFFFFF; 
+               text-decoration: none;
+               font-family: 'Poppins';
+               text-align: center; 
+               margin: 5px 5px;
+           }
+       }
+        .logo{
+            background-image: url('http://via.placeholder.com/200x100');
+            width: 187px;
+            height: 67px;
+            margin-left: 128px; 
+        }
+    }
+
+        
+.lorem{
+    margin: 0 auto;
+    width: 544px;
+    height: 124px;
+    text-align: center;
+    .lt1{color:rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: 'Poppins';}
+    .lorem-text{
+        color:rgba(255, 255, 255, 1);
+        font-size: 36px;
+        font-family: 'Poppins';
+    }   
+}
+.input__wrapper{
+    width: 100%;
+    p{
+        position: absolute;
+        margin-top: 5.7%;
+        left: 55vw;
+        color: azure;
+        font-size: large;
+    }
+    
+    
+    input{
+        margin: 5% 35vw;
+        width: 30vw;
+        border: 2px solid rgb(255, 253, 253);
+        border-radius: 4px 4px 4px 4px;
+        background-color: hsla(60, 56%, 91%, 0.048);
+        color:rgb(255, 253, 253);
+        font-size: large;
+        padding: 10px;
+    }
+}
+
+

@@ -1,0 +1,58 @@
+.group{
+     width: 100%;
+     text-align: center;
+     
+     .g-map{
+
+         margin:100px 128px;
+         max-width: 100vw;
+         text-align: center;
+
+        background-color: rgb(214, 215, 216);
+         .g-text{
+             width: 544px;
+             margin: 0 auto 0 auto;
+             .g-lor{
+                 margin-top: 89px;
+                 color: #000000;
+                 display: inline-block;
+                 font-size: 32px;
+                 font-family: 'Poppins';
+             }
+             .g-lor1{
+                 margin-top: 20px;
+                 display: inline-block;
+                 font-size: 16px;
+                 font-weight: bold;
+                 color: #707070;
+                 font-family: 'Poppins';
+             }
+         }
+         .tcl{
+             width: 100%;
+             margin-top: 93px;
+             .tcl1{
+                 display: inline-block;
+                 font-size: 36px;
+                 font-weight: bold;
+                 color: #000000;
+                 font-family: 'Poppins';
+                 span{
+                     height: 200px;
+                     width: 200px;
+                     font-size: 20px;
+                     font-family: 'Poppins';
+                     background-image:linear-gradient(to bottom, rgba(122, 33, 127, .15),rgba(122, 33, 127, .15));
+                     background-repeat: no-repeat;
+                     background-position: bottom;
+                     background-size: 100% 30%;
+                       
+                 }
+             }
+             .tcl2{
+                 margin: 0 100px;
+             }
+         }
+ 
+     }
+ }
